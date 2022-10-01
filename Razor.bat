@@ -1,9 +1,9 @@
 @echo off
 if exist x.txt del x.txt
 echo please enter the link for youtube video:
-set /p link="Video link: "
+set /p link="https://live.nicovideo.jp/watch/lv338167279: "
 youtube-dl -g -f best %link% >> x.txt
-set /p videolink=<x.txt
+set /p https://live.nicovideo.jp/watch/lv338167279=<x.txt
 del x.txt
 :cut
 set /p anwser1="please enter start point:"
